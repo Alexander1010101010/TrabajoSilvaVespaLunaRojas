@@ -1,0 +1,47 @@
+/* Fondo e imágenes */
+.hero-section {
+    background-image: url('../img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    position: relative;
+}
+
+/* Estilo de las secciones */
+.info-section, .benefits-section {
+    padding: 60px 0;
+}
+
+.info-section img, .benefits-section img {
+    transition: transform 0.5s;
+}
+
+.info-section img:hover, .benefits-section img:hover {
+    transform: scale(1.1);
+}
+
+/* Botón de animación */
+.btn-primary {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ff9900;
+    transform: scale(1.05);
+}
+
+/* Estilo de los beneficios */
+.benefits-section .col-md-4 img {
+    transition: transform 0.3s;
+}
+
+.benefits-section .col-md-4 img:hover {
+    transform: rotate(10deg);
+}
+
+/* Footer */
+.footer-section {
+    background: #333;
+    color: white;
+    font-size: 0.9rem;
+}
